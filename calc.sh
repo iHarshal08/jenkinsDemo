@@ -18,4 +18,4 @@ case ch in
         4)res=`expr a / b`
         ;;
 esac
-echo "Result : res"
+echo "Result : $res"
