@@ -1,7 +1,6 @@
 a=1
 b=2
 ch=3
-
 echo "Enter Choice: "
 echo "1. Addition"
 echo "2. Subtraction"
