@@ -1,6 +1,6 @@
 #!/bin/bash
 
-a=14
+a=12
 b=2
 ch=2  # Default choice, or take user input
 
