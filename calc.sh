@@ -9,7 +9,7 @@ echo "1. Addition"
 echo "2. Subtraction"
 echo "3. Multiplication"
 echo "4. Division"
-# Uncomment the next line if you want user input:
+
 # read ch
 
 case $ch in
