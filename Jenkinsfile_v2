@@ -3,19 +3,19 @@ pipeline {
     stages {
         stage('Clone Git') {
             steps {
-                git 'https://github.com/iHarshal08/jenkinsDemo.git'
+                git branch: 'main', url: 'https://github.com/iHarshal08/jenkinsDemo.git'
             }
         }
         stage('Build Code') {
             steps {
                 sh "chmod u+x Prog1.py"
-                sh "./Prog1.py"
+                sh "python3 ./Prog1.py"
             }
         }
      stage('Test Code') {
             steps {
                 sh "chmod u+x Test.py"
-                sh "./Test.py"
+                sh "python3 ./Test.py"
             }
         }
     } 
